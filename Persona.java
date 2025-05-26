@@ -49,6 +49,7 @@ public abstract class Persona {
 
     // Abstract methods (Abstraction & Polymorphism)
     public abstract void concentrarse();
+    
     public abstract void viajar();
 
     // You could add a common toString() method here
