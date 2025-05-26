@@ -1,5 +1,5 @@
 public class Masajista extends Persona {
-    
+
     private String titulacion;
     private Integer aniosExperiencia;
 
@@ -42,8 +42,5 @@ public class Masajista extends Persona {
         System.out.println(getNombre() + " está dando un masaje.");
     }
 
-    @Override
-    public String toString() {
-        return "Masajista: " + super.toString() + ", Titulación: " + titulacion + ", Años Experiencia: " + aniosExperiencia;
-    }
+    
 }

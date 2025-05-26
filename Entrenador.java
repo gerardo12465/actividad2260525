@@ -37,10 +37,7 @@
         System.out.println(getNombre() + " está dirigiendo el entrenamiento.");
     }
 
-    @Override
-    public String toString() {
-        return "Entrenador: " + super.toString() + ", ID Federación: " + idFederacion;
-    }
+    
 }
 
 

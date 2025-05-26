@@ -53,8 +53,5 @@ public abstract class Persona {
     public abstract void viajar();
 
     // You could add a common toString() method here
-    @Override
-    public String toString() {
-        return "ID: " + id + ", Nombre: " + nombre + " " + apellidos + ", Edad: " + edad;
-    }
+   
 }
