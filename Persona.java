@@ -1,6 +1,6 @@
 // Persona.java
 public abstract class Persona {
-    // Encapsulation: Attributes are private
+    // Encapsulation: Attributes are 
     private Integer id;
     private String nombre;
     private String apellidos;
@@ -49,7 +49,7 @@ public abstract class Persona {
 
     // Abstract methods (Abstraction & Polymorphism)
     public abstract void concentrarse();
-    
+
     public abstract void viajar();
 
     // You could add a common toString() method here
